@@ -23,7 +23,7 @@ public class Server implements Calculator_itf {
                 PrintWriter out =
                         new PrintWriter(clientSocket.getOutputStream(), true);
                 BufferedReader in = new BufferedReader(
-                        new InputStreamReader(clientSocket.getInputStream()));
+                        new InputStreamReader(clientSocket.getInputStream()))
         ) {
             op = Integer.parseInt(in.readLine());
             l = Integer.parseInt(in.readLine());
