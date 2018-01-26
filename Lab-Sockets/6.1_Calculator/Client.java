@@ -20,7 +20,7 @@ public class Client {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("--------- Choose operation :");
 		System.out.println("1 : Addition");
-		System.out.println("2 : Substraction");
+		System.out.println("2 : Subtraction");
 		System.out.println("3 : Division");
 		System.out.println("4 : Multiplication");
 		System.out.println("----------------------------");
